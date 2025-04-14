@@ -27,32 +27,36 @@
 ## 📁 Estructura del Proyecto (Sugerida)
 
 ### Frontend
+```bash
 /client
-  /src
-    /components 
-      /features
-        /comments 
-    /hooks 
-    /pages 
-    /types 
-    /utils 
-    App.tsx 
-    main.tsx 
-    tailwind.config.js
+├── /src
+│   ├── /components
+│   ├── /features
+│   │   └── /comments
+│   ├── /hooks
+│   ├── /pages
+│   ├── /types
+│   ├── /utils
+│   ├── App.tsx
+│   └── main.tsx
+├── tailwind.config.js
 
+```
 
 ### Backend
-/server 
-  /src 
-    /controllers 
-    /routes 
-    /services 
-    /repository
-    /middlewares
-    /database
-    /domain
-    /validators 
-    index.ts
+```bash
+/server
+├── /src
+│   ├── /controllers
+│   ├── /routes
+│   ├── /services
+│   ├── /repository
+│   ├── /middlewares
+│   ├── /database
+│   ├── /domain
+│   ├── /validators
+│   └── index.ts
+```
 
 ## ✨ Características (planificadas)
 - 💬 Sistema de comentarios anidados
