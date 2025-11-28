@@ -1,0 +1,18 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: #000000ad;
+  color: #000;
+  display: grid;
+  place-content: center;
+  height: 100%;
+  width: 100%;
+  transition: all 300ms ease-in-out;
+}
+
+.wrapperModal {
+  min-width: 620px;
+  max-width: 1080px;
+  border-radius: 1.5rem;
+  background-color: #fff;
+}

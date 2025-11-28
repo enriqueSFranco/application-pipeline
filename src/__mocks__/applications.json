@@ -1,0 +1,98 @@
+[
+  {
+    "id": "e804927a-45df-4274-b123-6e78854a850a",
+    "job": {
+      "id": "3cafdc56-21d3-405a-8d03-caf7b07adfbb",
+      "url": "https://www.occ.com.mx/empleos/de-desarrollador-jr/en-ciudad-de-mexico/?tm=7&jobid=20771971",
+      "title": "Desarrollador Frontend (nivel jr-intermedio)",
+      "company": "Grupo Salinas",
+      "description": "...",
+      "category": "Frontend Developer"
+    },
+    "status": "applied",
+    "notes": [
+      {
+        "id": "b2a6c37d-5e42-4c9a-a19a-4a31c7b1e0d1",
+        "jobId": "ed24b27f-3d9d-4c3e-9b8f-917b9e8f0a4c",
+        "content": "{\"blocks\":[{\"key\":\"a1b2c\",\"text\":\"Preparar entrevista técnica\",\"type\":\"header-one\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"d3e4f\",\"text\":\"Recordar revisar preguntas de algoritmos y estructuras de datos.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":9,\"length\":25,\"style\":\"BOLD\"},{\"offset\":35,\"length\":21,\"style\":\"ITALIC\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+        "createdAt": "2025-10-10T14:30:00.000Z"
+      },
+      {
+        "id": "0a1b2c3d-4e5f-6789-abcd-ef0123456789",
+        "jobId": "7b34d915-0a67-4f2d-89b3-542ab63bca77",
+        "content": "{\"blocks\":[{\"key\":\"x9y8z\",\"text\":\"Seguimiento con reclutadora\",\"type\":\"header-two\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}},{\"key\":\"m1n2o\",\"text\":\"Enviar correo de agradecimiento el lunes.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":7,\"length\":6,\"style\":\"BOLD\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+        "createdAt": "2025-10-12T09:15:00.000Z"
+      }
+    ],
+    "appliedAt": "2025-08-20T09:30:00Z",
+    "updatedAt": "2025-08-20T09:30:00Z"
+  },
+  {
+    "id": "ed080ebd-8470-478f-8470-48b6065461ac",
+    "job": {
+      "id": "1d42c25d-5c15-413f-8da0-e41d952da9f1",
+        "url": "https://www.occ.com.mx/empleos/de-python-developer/en-ciudad-de-mexico/?tm=7&jobid=20774527",
+        "title": "Desarrollador python",
+        "company": "TATA CONSULTANCY SERVICES",
+        "description": "...",
+        "category": "Python Developer"
+      },
+    "status": "interviewing",
+    "notes": [
+      {
+        "id": "819d6c85-1a07-4308-b96e-10895a180f2e",
+        "jobId": "ed080ebd-8470-478f-8470-48b6065461ac",
+        "content": "Primera entrevista programada para el 22/08/2025.",
+        "createdAt": "2025-08-21T14:00:00Z"
+      }
+    ],
+    "appliedAt": "2025-08-19T11:00:00Z",
+    "updatedAt": "2025-08-21T14:00:00Z"
+  },
+  {
+    "id": "c9ccddaf-bcb4-4256-8020-bea3ab5af352",
+      "job": {
+        "id": "6845fae7-3b25-4531-af05-c1a6ad81e7d7",
+        "url": "https://mx.indeed.com/jobs?q=react+jr&l=Ciudad+de+M%C3%A9xico&from=searchOnDesktopSerp%2Cwhatautocomplete%2CwhatautocompleteSourceStandard&vjk=75d387ad0cb5fcac",
+        "title": "FRONTEND JR",
+        "company": "IQUO DIGITAL",
+        "description": "...",
+        "category": "Desarrollador Web"
+      },
+      "scrapedAt": "2025-10-07T21:20:17.970948+00:00",
+      "source": "Occ",
+    "status": "interviewing",
+    "notes": [
+      {
+        "id": "49c2b6a4-4586-45c0-8aaf-4f6ff7c97f56",
+        "jobId": "c9ccddaf-bcb4-4256-8020-bea3ab5af352",
+        "content": "Prueba técnica enviada al candidato, con fecha límite de entrega el 28/08/2025.",
+        "createdAt": "2025-08-25T16:00:00Z"
+      }
+    ],
+    "appliedAt": "2025-08-18T15:00:00Z",
+    "updatedAt": "2025-08-25T16:00:00Z"
+  },
+  {
+    "id": "3f4b07ef-b98c-4b36-b39e-4c34c9a53b10",
+      "job": {
+        "id": "03f46654-e24c-4185-aed7-02890bafa760",
+        "url": "https://mx.indeed.com/jobs?q=front+end+developer&l=Ciudad+de+M%C3%A9xico&fromage=3&from=searchOnDesktopSerp&vjk=fada99192df9c214",
+        "title": "Front End Developer",
+        "company": "Grupo Coperva",
+        "description": "...",
+        "category": "Desarrollador Web"
+      },
+    "status": "rejected",
+    "notes": [
+      {
+        "id": "12440246-16ef-4455-a704-ff94357ec77c",
+        "jobId": "3f4b07ef-b98c-4b36-b39e-4c34c9a53b10",
+        "content": "Candidato no cumple con la experiencia mínima requerida.",
+        "createdAt": "2025-08-24T11:00:00Z"
+      }
+    ],
+    "appliedAt": "2025-08-17T08:00:00Z",
+    "updatedAt": "2025-08-24T11:00:00Z"
+  }
+]

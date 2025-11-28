@@ -1,0 +1,59 @@
+{
+  "occ": [
+    {
+      "job": {
+        "id": "3cafdc56-21d3-405a-8d03-caf7b07adfbb",
+        "url": "https://www.occ.com.mx/empleos/de-desarrollador-jr/en-ciudad-de-mexico/?tm=7&jobid=20771971",
+        "title": "Desarrollador Frontend (nivel jr-intermedio)",
+        "company": "Grupo Salinas",
+        "description": "...",
+        "category": "Frontend Developer"
+      },
+      "scrapedAt": "2025-10-07T21:20:17.970948+00:00",
+      "source": "Occ",
+      "status": "success"
+    },
+    {
+      "job": {
+        "id": "1d42c25d-5c15-413f-8da0-e41d952da9f1",
+        "url": "https://www.occ.com.mx/empleos/de-python-developer/en-ciudad-de-mexico/?tm=7&jobid=20774527",
+        "title": "Desarrollador python",
+        "company": "TATA CONSULTANCY SERVICES",
+        "description": "...",
+        "category": "Python Developer"
+      },
+      "scrapedAt": "2025-10-07T21:20:17.970948+00:00",
+      "source": "Occ",
+      "status": "success"
+    }
+  ],
+  "linkedin": [],
+  "indeed": [
+    {
+      "job": {
+        "id": "6845fae7-3b25-4531-af05-c1a6ad81e7d7",
+        "url": "https://mx.indeed.com/jobs?q=react+jr&l=Ciudad+de+M%C3%A9xico&from=searchOnDesktopSerp%2Cwhatautocomplete%2CwhatautocompleteSourceStandard&vjk=75d387ad0cb5fcac",
+        "title": "FRONTEND JR",
+        "company": "IQUO DIGITAL",
+        "description": "...",
+        "category": "Desarrollador Web"
+      },
+      "scrapedAt": "2025-10-07T21:20:17.970948+00:00",
+      "source": "Occ",
+      "status": "success"
+    },
+    {
+      "job": {
+        "id": "03f46654-e24c-4185-aed7-02890bafa760",
+        "url": "https://mx.indeed.com/jobs?q=front+end+developer&l=Ciudad+de+M%C3%A9xico&fromage=3&from=searchOnDesktopSerp&vjk=fada99192df9c214",
+        "title": "Front End Developer",
+        "company": "Grupo Coperva",
+        "description": "...",
+        "category": "Desarrollador Web"
+      },
+      "scrapedAt": "2025-10-07T21:20:17.970948+00:00",
+      "source": "Occ",
+      "status": "success"
+    }
+  ]
+}
