@@ -1,40 +1,44 @@
-# 🎨 Application Pipeline - Frontend (React + TanStack Router)
+# 1) Visión y objetivo
 
-Este proyecto es el **frontend** de un sistema de gestión de postulaciones laborales, tipo **Job Board estilo Trello**, desarrollado en **React + TypeScript**.
-Se conecta con el backend desarrollado en **Spring Boot**.
+Una app para que candidatos lleven el control de todas sus postulaciones: empresa, puesto, estado, fechas, notas y recordatorios. Objetivo: minimizar el “desorden” y asegurar seguimiento (follow-ups) —todo en un solo lugar— con alertas y métricas (p. ej. tasa de respuesta, tiempo medio de proceso).
+
+# 2) Público objetivo
+
+* Personas en búsqueda activa de trabajo (junior / mid).
+* Reclutadores que gestionan pocas vacantes (uso personal).
+* Estudiantes y freelances.
+
+# 3) MVP — features esenciales (prioridad)
+
+1. Crear/editar/eliminar una postulación (job application).
+2. Estados estándar + custom (Applied, Phone screen, Interview, Offer, Rejected, Archived).
+3. Notas por postulación (texto + etiquetas).
+4. Fechas: aplicado, entrevista, recordatorios.
+5. Vista de lista filtrable/ordenable y vista detalle.
+6. Recordatorios push locales (follow-up).
+7. Sincronización básica y persistencia local (MMKV/SQLite).
+8. Exportar/importar CSV (para backup/uso en portfolio).
+9. Dashboard simple con métricas (aplicaciones por semana, % respuesta).
 
 ---
+🔍 FLUJO EN LA APP
+“El usuario crea una nueva postulación con empresa, puesto, notas y primer recordatorio.”
 
-## 🚀 Tecnologías principales
-- ⚛️ [React 18](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)  
-- 🧭 [TanStack Router](https://tanstack.com/router) (routing file-based)  
-- ⚡ [Jotai](https://jotai.org/) (state management)  
-- 🎨 [Tailwind CSS](https://tailwindcss.com/) (UI rápida y consistente)  
-- 🔧 [Vite](https://vitejs.dev/) (build tool ultrarápido)  
-
----
-
-## 📂 Estructura del proyecto
-
-```bash
-src/
-│── lib/                # Lógica de negocio y dominio por feature
-│   ├─ Job/
-│   │   ├─ domain/      # Entidades y tipos del dominio (Job, Status, etc.)
-│   │   ├─ application/ # Casos de uso (services, repos)
-│   │   └─ infra/       # Repositorios (APIs, localStorage)
-│
-│── sections/           # Feature UI (atomic design aplicado por feature)
-│   └─ job/
-│       ├─ ui/          # Componentes UI (JobCard, JobBoard, JobList)
-│       ├─ config/      # Configuración (columns, views)
-│       ├─ dnd/         # Drag & Drop con dnd-kit
-│       └─ state/       # Átomos Jotai para este feature
-│
-│── shared/             # Componentes UI reutilizables
-│   ├─ ui/              # Ej: Button, ModalRoot, Header
-│   └─ hooks/           # Hooks compartidos
-│
-│── routes/             # Rutas con TanStack Router
-│── main.tsx            # Entry point
+UI (NewApplicationScreen)
+      ↓
+Use case: CreateJobApplication
+      ↓
+Port: IApplicationRepository
+      ↓
+Adapter: ApplicationGraphqlAdapter
+      ↓
+GraphQL mutation → servidor
+      ↓
+Respuesta convertida a modelo de dominio (JobApplication)
+      ↓
+Use case crea recordatorio por dominio (ReminderPolicy)
+      ↓
+Recordatorio persiste vía IReminderRepository
+      ↓
+UI recibe un ViewModel listo
 

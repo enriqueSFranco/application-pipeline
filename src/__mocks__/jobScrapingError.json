@@ -1,0 +1,13 @@
+{
+  "job": {
+    "url": "https://getonboard.com/jobs/frontend-developer",
+    "title": "Scraper genérico",
+    "company": "Fuente desconocida",
+    "description": "No se detectó una fuente conocida. Se devolvió un mock parcial.",
+    "category": "General"
+  },
+  "scrapedAt": "2025-10-08T17:00:11.000Z",
+  "source": "generic",
+  "status": "partial",
+  "message": "Fuente no soportada aún."
+}
