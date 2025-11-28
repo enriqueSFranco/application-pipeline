@@ -11,7 +11,6 @@ interface UseActiveItemOpts<T extends HTMLElement = HTMLElement> {
 
 /**
  * Hook para medir y exponer el rect del item activo
- * register: función para asignar callback refs: ref={el => register(el, key)}
  * @param param0
  * @returns
  */
